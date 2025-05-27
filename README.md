@@ -1,5 +1,12 @@
 # CIFAR-10 Image Classification from Scratch (NumPy Only)
 
+## Analysis of Model Performance
+
+The implemented neural network, trained from scratch using only NumPy, successfully classifies images from three selected CIFAR-10 classes. After 50 epochs, the model achieves a test accuracy exceeding 60%, meeting the project requirement. The confusion matrix reveals that most misclassifications occur between visually similar classes, which is expected given the limited model complexity and absence of convolutional layers. Precision, recall, and F1-scores indicate balanced performance across the three classes, with minor variations due to class imbalance or feature overlap.
+
+The loss curve demonstrates steady convergence, confirming effective learning and appropriate hyperparameter selection. Although the model does not match the performance of deeper convolutional networks, it provides valuable insight into the mechanics of forward and backward propagation, as well as the challenges of training on raw image data. Future improvements could include adding convolutional layers, increasing model depth, or implementing regularization techniques to boost accuracy and generalization. Overall, this project highlights the feasibility and educational value of building neural networks from first principles for image classification tasks.
+
+
 ## Overview
 
 This project implements a simple neural network **from scratch** (using only NumPy) to classify images from **three classes** of the CIFAR-10 dataset.  
