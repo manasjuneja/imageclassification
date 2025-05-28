@@ -94,13 +94,14 @@ Evaluation Metrics
 
     Confusion Matrix: Plotted and saved as an image
 
-Example Results
+Example Results:
 
-Epoch 50/50 Loss: 0.85
+Epoch 50/50 
+Loss: 0.85
 Accuracy: 0.82
 Precision: [[0.82333333 0.83317887 0.80313418]
 Recall: [0.741 0.899 0.82]
-F1-score: [0.78       0.86483886 0.81147947]
+F1-score: [0.78 0.86483886 0.81147947]
 
 See confusion_matrix.png and loss_curve.png for more details.
 ## Notes
