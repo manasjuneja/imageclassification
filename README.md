@@ -17,11 +17,11 @@ All forward propagation, backpropagation, and gradient descent steps are impleme
 
 ## Features
 
-- ✅ Manual neural network implementation (NumPy only)  
-- ✅ 3-class CIFAR-10 classification (e.g., airplane, automobile, bird)  
-- ✅ Custom training loop with loss curve plotting  
-- ✅ Evaluation metrics: accuracy, precision, recall, F1-score, and confusion matrix  
-- ✅ Platform-independent: runs on any CPU (no GPU required)
+-  Manual neural network implementation (NumPy only)  
+-  3-class CIFAR-10 classification (e.g., airplane, automobile, bird)  
+-  Custom training loop with loss curve plotting  
+-  Evaluation metrics: accuracy, precision, recall, F1-score, and confusion matrix  
+-  Platform-independent: runs on any CPU (no GPU required)
 
 ---
 
@@ -105,13 +105,13 @@ F1-score: [0.78       0.86483886 0.81147947]
 See confusion_matrix.png and loss_curve.png for more details.
 ## Notes
 
-    🧠 No GPU required: All computations run on CPU
+     No GPU required: All computations run on CPU
 
-    📦 No deep learning frameworks: Only NumPy, matplotlib, and scikit-learn are used
+     No deep learning frameworks: Only NumPy, matplotlib, and scikit-learn are used
 
-    📊 Training set size: 15,000 images (3 classes × 5,000 images each)
+     Training set size: 15,000 images (3 classes × 5,000 images each)
 
-    🧪 Test set size: 3,000 images (3 classes × 1,000 images each)
+     Test set size: 3,000 images (3 classes × 1,000 images each)
 
 # Analysis
 
